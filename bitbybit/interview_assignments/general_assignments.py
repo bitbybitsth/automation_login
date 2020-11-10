@@ -5,6 +5,10 @@ def even_or_odd(number):
     else:
         return False
 
+def function_name(x):
+    if x==10:
+        print(10)
+
 
 # list out even number from give list
 
