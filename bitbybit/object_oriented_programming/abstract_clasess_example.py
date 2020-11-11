@@ -22,6 +22,50 @@ class RBI(ABC):
         pass
 
 
+class BankOfBaroda(RBI):
+    all_accounts = []
+
+    def amount_deposit(self, acc_holder, amount, contact):
+        account = self.get_account(acc_holder)
+        if account:
+            account.acc_balance += amount
+            return f"Amount deposited"
+        else:
+            print("Creating your account")
+            s2 = SavingsAccount(2, acc_holder, amount, contact)
+            return f"Your account has been created, account_no is {s2.acc_no}"
+
+    def provide_passbook(self):
+        pass
+
+    def provide_savings_account(self):
+        s1 = SavingsAccount(1, "pankaj", 50000, 9766588937)
+        self.all_accounts.append(s1)
+
+    def get_account(self, acc_holder):
+        for item in self.all_accounts:
+            if item.acc_holder == acc_holder:
+                return item
+
+    def amount_withdrawal(self, acc_holder, withdrawal_amount):
+        account = self.get_account(acc_holder)
+        if account:
+            min_balance = account.acc_balance - withdrawal_amount
+            if min_balance > 1000:
+                account.acc_balance -= withdrawal_amount
+                return f"{withdrawal_amount} has been withdrawal from your account"
+            else:
+                return "you have to maintain minimum balance"
+        else:
+            return f"You don't have a account in our bank"
+
+    def online_banking(self):
+        pass
+
+    def no_transaction_fee(self):
+        pass
+
+
 all_accounts = []
 
 class ICICI(RBI):
