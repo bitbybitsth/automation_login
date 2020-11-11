@@ -12,6 +12,8 @@ def function_name(x):
 
 # list out even number from give list
 
+
+
 # l = [45,65,68,89,98,34,56,12,34,56,87,46,64]
 #
 # # for i in l:
