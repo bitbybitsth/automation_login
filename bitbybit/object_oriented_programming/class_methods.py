@@ -20,6 +20,17 @@ class Employee:
         print(self)
         print(f"{self.__dict__}")
 
+    def amount_withdrawal(self, acc_holder, withdrawal_amount):
+        account = self.get_account(acc_holder)
+        if account:
+            min_balance = account.acc_balance - withdrawal_amount
+            if min_balance > 1000:
+                account.acc_balance -= withdrawal_amount
+                return f"{withdrawal_amount} has been withdrawal from your account"
+            else:
+                return "you have to maintain minimum balance"
+        else:
+            return f"You don't have a account in our bank"
 
     @classmethod
     def get_raise_amount(cls):

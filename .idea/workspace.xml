@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66dacdb0-d4d9-46a4-86f6-a9bf3b41971f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bitbybit/interview_assignments/general_assignments.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitbybit/interview_assignments/general_assignments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/abstract_clasess_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitbybit/object_oriented_programming/abstract_clasess_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/detail_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitbybit/object_oriented_programming/detail_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/duck_typing.py" beforeDir="false" />
+    <list default="true" id="50765ed7-0f85-450e-803d-1df16a97c99e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/basic_oop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/class_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitbybit/object_oriented_programming/class_methods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1k5J0zAJsCYzleoBjPkmNZCi1cq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1k8nZbVl0GTDE0s2x8tU99YNVRx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,11 +36,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="66dacdb0-d4d9-46a4-86f6-a9bf3b41971f" name="Default Changelist" comment="" />
-      <created>1604984299575</created>
+      <changelist id="50765ed7-0f85-450e-803d-1df16a97c99e" name="Default Changelist" comment="" />
+      <created>1605091142530</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604984299575</updated>
+      <updated>1605091142530</updated>
     </task>
     <servers />
   </component>
