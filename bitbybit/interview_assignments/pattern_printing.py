@@ -81,19 +81,4 @@ pattern1(7)
 # patter4(5)
 
 
-def pattern1(n):
-    """
-    *
-    * *
-    * * *
-    * * * *
-    * * * * *
-    :param n: n is input for no of lines
-    :return: None
-    """
-    for i in range(1, n+1):  # use for new line [1 ,2 ,3 ,4]
-        # print("* "*i)
-        for j in range(1, i+1):  # for printing stars
-            print(f"{j}", end=" ")
-        print("")
 
