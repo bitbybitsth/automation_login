@@ -22,4 +22,13 @@ af.provide_agriculure_technology()
 print(help(af))
 
 
+class Africa(India, Israel):
+    pass
+
+af = Africa()
+
+af.supply_spices()
+af.provide_agriculure_technology()
+
+print(help(af))
 
