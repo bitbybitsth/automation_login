@@ -16,7 +16,23 @@ class Employee:
     def give_raise(self):
         self.pay = self.pay * self.raise_amount
 
+class Employee:
 
+    raise_amount = 1.05
+    count_of_empl = 0
+
+    def __init__(self, eid, name, pay, designation):
+        self.eid = eid
+        self.name = name
+        self.pay = pay
+        self.designation = designation
+        Employee.count_of_empl +=1
+
+    def __str__(self):
+        return f"{self.__dict__}"
+
+    def give_raise(self):
+        self.pay = self.pay * self.raise_amount
 #
 emp1 = Employee(1, "honu", 50000, "dev")
 emp2 = Employee(2, "nitesh", 50000, "dev")
