@@ -5,6 +5,17 @@ from adavanced_concepts import MedicineExpired
 from datetime import date
 
 
+ class A:
+#
+#     def __init__(self, value, name):
+#         self.value = value
+#         self.name = name
+#
+#     def __add__(self, other):
+#         self.name = self.name + other.name
+#
+#     def __gt__(self, other)
+
 # class A:
 #
 #     def __init__(self, value, name):
