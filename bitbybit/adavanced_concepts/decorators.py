@@ -11,7 +11,7 @@ def timer(func):   # name to be given for deorator and function as argument
         print("total time taken for addition to complete is: ", t2-t1)
     return wrapper
 
-def slow_dwon_for_2secs(func):
+def slow_dwon_for_2hours(func):
 
     @wraps(func)
     def wrapper(*args, **kwargs):
