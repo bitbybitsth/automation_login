@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50765ed7-0f85-450e-803d-1df16a97c99e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/basic_oop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/class_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitbybit/object_oriented_programming/class_methods.py" afterDir="false" />
+    <list default="true" id="66dacdb0-d4d9-46a4-86f6-a9bf3b41971f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bitbybit/object_oriented_programming/newfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitbybit/object_oriented_programming/newfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1k8nZbVl0GTDE0s2x8tU99YNVRx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,5 +53,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
