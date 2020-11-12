@@ -13,6 +13,7 @@ def timer(func):   # name to be given for deorator and function as argument
 
 def slow_dwon_for_2hours(func):
 
+
     @wraps(func)
     def wrapper(*args, **kwargs):
         time.sleep(2)
