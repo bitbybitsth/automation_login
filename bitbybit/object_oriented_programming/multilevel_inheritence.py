@@ -19,6 +19,27 @@ class College:
             return False
 
 
+class College:
+
+    auditorium = str()
+    ground = str()
+
+    def book_auditorioum(self):
+        print(f"Auditorium booked by {self.name}")
+        self.auditorium = f"booked by {self.name}"
+
+    def book_ground(self):
+        print(f"Ground booked by {self.name}")
+        self.ground = True
+
+    @property
+    def is_ground_booked(self):
+        if self.ground:
+            return True
+        else:
+            return False
+
+
 class EngineeringDepartment(College):
 
     library = str()
