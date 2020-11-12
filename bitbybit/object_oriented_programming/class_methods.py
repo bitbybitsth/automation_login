@@ -57,6 +57,13 @@ emp1 = Employee(1, "honu", 50000, "dev", joining_date = "10,2,2020")
 x = emp1.get_joing_date("06,07,2020")
 print(x)
 
+
+emp1 = Employee(1, "honu", 50000, "dev", joining_date = "10,2,2020")
+# emp1.display()
+x = emp1.get_joing_date("06,07,2020")
+print(x)
+
+
 # emp1 = Employee(1, "honu", 50000, "dev", joining_date = "10,2,2020")
 # emp2 = Employee(2, "nitesh", 50000, "test", joining_date = "10,2,2020")
 # emp3 = Employee(3, "pankaj", 50000, "dev", joining_date = "10,2,2020")
